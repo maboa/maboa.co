@@ -184,6 +184,13 @@ section.success {
   background: #18BC9C;
   color: white;
 }
+
+section.success a {
+  color: #e0ffff;
+  text-decoration: underline;
+  text-decoration-skip: ink;
+}
+
 @media (max-width: 767px) {
   section {
     padding: 75px 0;
